@@ -101,3 +101,24 @@ Eye Aspect Ratio (EAR) based blink detection.
 - Consecutive closed-eye frame counting
 - Blink counting
 - Reset mechanism after eye opening
+## Revision 3 – Drowsiness Alert Enhancement
+
+The final revision extends blink detection into drowsiness detection.
+
+### Added Features
+
+- Prolonged eye-closure detection
+- Drowsiness status
+- Alert generation
+- Face-not-detected handling
+- Camera termination condition
+
+### Final Workflow
+
+Camera Input
+→ Face Detection
+→ Eye Landmark Detection
+→ EAR Calculation
+→ Blink Detection
+→ Prolonged Eye Closure Detection
+→ Drowsiness Alert
