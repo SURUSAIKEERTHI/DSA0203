@@ -89,3 +89,15 @@ Blink count, eye status, and drowsiness alert.
 11. Close the display.
 
 12. STOP
+## Revision 2 – Blink Detection Enhancement
+
+The second revision improves the initial design by introducing
+Eye Aspect Ratio (EAR) based blink detection.
+
+### Added Features
+
+- EAR threshold definition
+- Left and right eye analysis
+- Consecutive closed-eye frame counting
+- Blink counting
+- Reset mechanism after eye opening
